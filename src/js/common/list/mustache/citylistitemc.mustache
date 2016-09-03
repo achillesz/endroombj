@@ -1,0 +1,39 @@
+{{#lists}}
+<li class="s-product">
+   <a class="h5-link pc-link" href="{{listLink}}" title="{{listTitle}}">
+      <div class="pic">
+          <img src-set="{{listImg}}">
+          <div class="mark-discount" style='{{#zhekou}}display:block;{{/zhekou}}'>
+           <p class="discount" style="color:{{promotionLabelTextColor}};background-color:{{promotionLabelBgColor}};">{{labelText}}</p>
+        </div>
+          <div class="mark-givefood"  style='{{#zengsong}}display:block;{{/zengsong}}'>
+              <p class="givefood" style="color:{{promotionLabelTextColor}};background-color:{{promotionLabelBgColor}};">{{labelText}}</p>
+          </div>
+        {{{fullHose}}}
+          <div class="info">
+              <div class="inf-left clearfix">
+                 <div class="assess clearfix">
+                     <div class="naturl1"><span>{{promotionRated}}</span>评价</div>
+                     <div class="naturl2"><span>{{promotionMark}}</span>分</div>
+                 </div>
+                 <div class="inf-icon clearfix">
+                     <span class="icon"></span>
+                     <span class="address">{{promotionhotelCommerical}}</span>
+                 </div>
+              </div>
+          </div>
+      </div>
+      <div class="information">
+        <div class="clearfix">
+          <div class="pricebox clearfix">
+            <p class="nprice">￥{{listPrice}}<span>起</span></p>
+            <p class="yprice" style="{{#purchasepriceHide}}display:none;{{/purchasepriceHide}}">￥{{purchaseprice}}</p>
+
+          </div>
+          <div class="hotelname">{{listTitleInfo}}</div>
+        </div>
+        <div class="describe">{{promotionRecommend}}</div>
+      </div>
+      </a>
+ </li>
+ {{/lists}}

@@ -1,0 +1,14 @@
+<div class="citybox">
+    {{#showMore}}
+        <div class="moreCity" style="background-color:{{navbarColor}}">
+            <div class="angleBottom"></div>
+        </div>
+    {{/showMore}}
+    <div class="city cityBar" {{^showMore}}style="margin-right: 0"{{/showMore}}>
+       <ul class="cityList2" style="background-color: {{navbarColor}}">
+           {{#cities}}
+            <li class="hot-city-active{{#isHightLight}} city-active{{/isHightLight}}" style="background-color: {{navbarColor}}" city-id="{{promCityDataID}}"><span style="color:{{#isHightLight}} {{navbarChooseColor}}{{/isHightLight}} {{^isHightLight}} {{navbarTextColor}} {{/isHightLight}} ;{{#isHightLight}}background-color:{{navbarFocusColor}} {{/isHightLight}}">{{cityNameCN}}</span></li>
+           {{/cities}}
+          </ul>
+    </div>
+</div>

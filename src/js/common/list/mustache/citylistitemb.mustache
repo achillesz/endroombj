@@ -1,0 +1,32 @@
+{{#lists}}
+<li class="s-product">
+   <a class="h5-link pc-link" href="{{listLink}}" title="{{listTitle}}">
+      <div class="pic">
+          <img src-set="{{listImg}}">
+          <div class="mark-discount" style='{{#zhekou}}display:block;{{/zhekou}}'>
+           <p class="discount" style="color:{{promotionLabelTextColor}};background-color:{{promotionLabelBgColor}};">{{labelText}}</p>
+        </div>
+          <div class="mark-givefood"  style='{{#zengsong}}display:block;{{/zengsong}}'>
+              <p class="givefood" style="color:{{promotionLabelTextColor}};background-color:{{promotionLabelBgColor}};">{{labelText}}</p>
+          </div>
+        {{{fullHose}}}
+          <div class="info">
+              <div class="inf-left">
+                 <div class="inf-icon clearfix">
+                     <span class="icon"></span>
+                     <span class="address">{{promotionhotelCommerical}}</span>
+                 </div>
+              </div>
+              <h1>{{listTitleInfo}}</h1>
+          </div>
+      </div>
+      <div class="information">
+          <div class="pricebox">
+                <p class="yprice" style="{{#purchasepriceHide}}display:none;{{/purchasepriceHide}}">￥{{purchaseprice}}</p>
+                <p class="nprice {{#purchasepriceHide}}onlyone{{/purchasepriceHide}}">￥{{listPrice}}起</p>
+          </div>
+          <div class="yuding">立即预定</div>
+      </div>
+      </a>
+</li>
+{{/lists}}

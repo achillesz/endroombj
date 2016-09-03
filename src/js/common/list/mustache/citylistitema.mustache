@@ -1,0 +1,38 @@
+{{#lists}}
+<li class="s-product">
+	<a class="h5-link pc-link" href="{{listLink}}" title="{{listTitle}}">
+		<div class="pic">
+			<img src-set="{{listImg}}">
+			<div class="mark-discount" style='{{#zhekou}}display:block;{{/zhekou}}'>
+				<p class="discount" style="color:{{promotionLabelTextColor}};background-color:{{promotionLabelBgColor}};">{{labelText}}</p>
+			</div>
+			<div class="mark-givefood" style='{{#zengsong}}display:block;{{/zengsong}}'>
+            	<p class="givefood" style="color:{{promotionLabelTextColor}};background-color:{{promotionLabelBgColor}};">{{labelText}}</p>
+        	</div>
+			{{{fullHose}}}
+		</div>
+
+		<div class="information">
+			<h1>{{listTitleInfo}}</h1>
+			<div class="inf-left">
+				<div class="inf-icon">
+					<span class="icon"></span>
+					<span class="address">{{promotionhotelCommerical}}</span>
+				</div>
+			</div>
+			<div class="inf-right">
+				<span class="qi">起</span>
+				<span class="price">{{listPrice}}</span>
+				<span class="rmb">￥</span>
+			</div>
+
+			
+		</div>
+	</a>
+</li>
+{{/lists}}
+
+
+
+
+      

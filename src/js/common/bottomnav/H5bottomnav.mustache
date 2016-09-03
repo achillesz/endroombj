@@ -1,0 +1,31 @@
+<div class="nav_div">
+    <div class="ceilingNav box_shadow">
+        <ul class="ceil_ul" meetingColor='{{meetingColor}}'>
+            <li class="mainVenue hotellink" hotellink="{{mainMUrl}}" style='{{#flag}} width:50%;{{/flag}}'>
+            	<i class="bgWImg ceil_main"></i>
+            	<p>主会场</p>
+            </li>
+            <li class="parallelSessions" style='{{#flag}} width:50%;{{/flag}}'>
+            	<i class="bgWImg ceil_prarll"></i>
+            	<p>分会场</p>
+            </li>
+            {{^flag}}
+            <li class="seckill hotellink" hotellink="{{miaoshalink}}">
+                <i class="bgWImg ceil_sec"></i>
+                <p>我的抢购</p>
+            </li>
+            {{/flag}}
+        </ul>
+    </div>
+    <div class="parallelNav parallelNav_up box_shadow">
+        <p class="parallel_close">分会场<i class="bgWImg"></i></p>
+        <ul class="clearfix">
+        	{{#list}}
+            <li class="hotellink" hotellink="{{semenetUrl}}">{{semeetName}}</li>
+            {{/list}}
+        </ul>                      
+    </div>
+  <div class="pop" style="display:none;"></div>
+</div>
+
+

@@ -1,0 +1,173 @@
+{
+  "success": true,
+  "msg": "服务器返回信息错误",
+  "code": 200,
+  "data": {
+    "app5Url": null,
+    "h5showcommentMVT": null,
+    "hasSpecialDay": false,
+    "hasApp5Discount": false,
+    "hotelList": [],
+    "suggestHotelList": [
+      {
+        "activityTags": [],
+        "hotelName": "北京德全酒店(石佛营店)",
+        "picUrl": "http://pavo.elongstatic.com/i/mobile220_220/0000cjRo.jpg",
+        "commentPoint": "94",
+        "commentScore": 4.1,
+        "starLevel": 2,
+        "facilityList": [
+          {
+            "type": 2,
+            "hasSupport": true,
+            "hasFree": true
+          },
+          {
+            "type": 1,
+            "hasSupport": true,
+            "hasFree": true
+          },
+          {
+            "type": 7,
+            "hasSupport": false,
+            "hasFree": false
+          }
+        ],
+        "syncfacilityList": null,
+        "distance": 4.546,
+        "calDistanceType": 2,
+        "placeName": "",
+        "businessAreaName": "朝阳公园/团结湖",
+        "lmOriPrice": 0.0,
+        "lowestPrice": 198,
+        "preferential": [
+          5,
+          9
+        ],
+        "detailPageUrl": "http://m.elong.com/hotel/90580737/#indate=2016-08-24&outdate=2016-08-25",
+        "districtName": "朝阳区",
+        "totalCommentCount": 1021,
+        "specialDay": false,
+        "baiduLatitude": "39.942501",
+        "baiduLongitude": "116.511204",
+        "hongbao": 0
+      },
+      {
+        "activityTags": [],
+        "hotelName": "北京德全酒店(石佛营店)",
+        "picUrl": "http://pavo.elongstatic.com/i/mobile220_220/0000cjRo.jpg",
+        "commentPoint": "94",
+        "commentScore": 4.1,
+        "starLevel": 2,
+        "facilityList": [
+          {
+            "type": 2,
+            "hasSupport": true,
+            "hasFree": true
+          },
+          {
+            "type": 1,
+            "hasSupport": true,
+            "hasFree": true
+          },
+          {
+            "type": 7,
+            "hasSupport": false,
+            "hasFree": false
+          }
+        ],
+        "syncfacilityList": null,
+        "distance": 4.546,
+        "calDistanceType": 2,
+        "placeName": "",
+        "businessAreaName": "朝阳公园/团结湖",
+        "lmOriPrice": 0.0,
+        "lowestPrice": 198,
+        "preferential": [
+          5,
+          9
+        ],
+        "detailPageUrl": "http://m.elong.com/hotel/90580737/#indate=2016-08-24&outdate=2016-08-25",
+        "districtName": "朝阳区",
+        "totalCommentCount": 1021,
+        "specialDay": false,
+        "baiduLatitude": "39.942501",
+        "baiduLongitude": "116.511204",
+        "hongbao": 0
+      }
+    ],
+    "sortKey": [
+      {
+        "key": 1,
+        "value": "1,1"
+      },
+      {
+        "key": 2,
+        "value": "4,1"
+      },
+      {
+        "key": 3,
+        "value": "4,2"
+      },
+      {
+        "key": 4,
+        "value": "5,1"
+      },
+      {
+        "key": 5,
+        "value": "5,2"
+      },
+      {
+        "key": 6,
+        "value": "2,2"
+      },
+      {
+        "key": 7,
+        "value": "3,1"
+      }
+    ],
+    "hotelListUrlParameter": {
+      "cityEntity": {
+        "cityName": "北京市",
+        "cityId": "0101",
+        "pinYin": "beijingshi",
+        "jianPin": "bjs",
+        "cityNameSEO": "beijing"
+      },
+      "city": null,
+      "indate": "2016-08-24",
+      "outdate": "2016-08-25",
+      "hotelname": null,
+      "areaid": null,
+      "areatype": null,
+      "facilityids": null,
+      "starlevels": null,
+      "hotelbrandids": null,
+      "themeids": null,
+      "keywords": null,
+      "keywordstype": null,
+      "personofroom": null,
+      "sortmethod": "3",
+      "sortdirection": "1",
+      "startlat": "39.97674",
+      "startlng": "116.4956",
+      "lbstype": "2",
+      "lowprice": null,
+      "highprice": null,
+      "isnear": "1",
+      "saletype": null,
+      "paytype": null,
+      "radius": null,
+      "pageindex": 0,
+      "placename": null,
+      "pagesize": null,
+      "hotelid": null,
+      "placeId": null,
+      "fastfilter": null,
+      "brandname": null,
+      "filtertype": 0
+    },
+    "hasApp5": false,
+    "fastFilter": []
+  }
+}

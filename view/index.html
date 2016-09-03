@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width,target-densitydpi=medium-dpi,initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title>尾房</title>
+    <link rel="icon" href="http://www.elongstatic.com/common/pic/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="http://www.elongstatic.com/web/common/css/new2015.min.css">
+    <link href="../dist/usecase/index/usecase.css" rel="stylesheet" type="text/css">
+</head>
+
+<body >
+<!--<div class="pages">
+    <div class="page">
+        <div class="page-content page-list">
+
+        </div>
+        <div class="list-top">
+            <div class="backtop"><i class="icon-top"></i></div>
+        </div>
+    </div>
+</div>-->
+
+<div class="pop rule-explain" style="display:none;">
+    <div class="rules">
+        <h3>今夜狂甩活动说明</h3>
+        <ul>
+            <li><span>1、</span>活动有效期：2016.9.1-2016.9.30。</li>
+            <li><span>2、</span>每天16:00至次日6:00，特价房发售，售完即止。</li>
+            <li><span>3、</span>参加活动特价房均为预定当日入住；16:00至23:59期间预定的特价房，需当日入住次日12:00前离店；0:00至6：00期间预定特价房需在当日12:00前退房。</li>
+            <li><span>4、</span>用户抢购成功后，需按流程填写酒店订单并完成支付，方可生效。</li>
+            <li><span>5、</span>参与本次活动的酒店订单一经提交不可更改不可取消，请仔细核对您所填写的信息。</li>
+            <li><span>6、</span>本页面所示“起价”不包括各种税费，且将随着出行日期及季节的变化可能有所浮动，此次活动涉及的所有房型价格均以酒店详情页展示的当天预订价格为准。</li>
+            <li><span>7、</span>在法律允许的范围内，根据活动的进展情况，艺龙旅行网可能对活动的规则/条款作出适当修改/调整。</li>
+            <li><span>8、</span>如您对此次活动有任何疑问，欢迎随时致电艺龙客服电话：4009-333-333。</li>
+        </ul>
+        <p class="know">我知道了</p>
+    </div>
+</div>
+<div class="main page-content">
+    <div class="banner">
+        <div class="the_rule">活动说明&nbsp;></div>
+    </div>
+    <div class="input_div" id="geo">
+        <i class="icon_location"></i>
+        <input class="addressName" readonly type="" name="" value="北京市朝阳区" placeholder=""/>
+        <i class="icon_renovate geoBtn"></i>
+    </div>
+    <div class="botton_div" id="filterDistPrice">
+        <div class="botton_left act" data-sort-method="3" id="distanceBtn">按距离推荐</div>
+        <div class="botton_right" data-sort-method="4" id="priceBtn">按价格推荐</div>
+    </div>
+    <!--没开始前展示-->
+    <div class="sale" id="shoppingDescription">
+        <div class="sale_left">
+
+        </div>
+        <div class="sale_right">
+            <p class="sale_tip">您附近的酒店今夜超低价甩卖中，每天16：00准时开抢，千万不要错过哦！</p>
+            <p class="sale_process">微信钱包<span></span>酒店<span></span>今夜狂甩<span></span>抢特价房<span></span>当日入住</p>
+        </div>
+    </div>
+<!--到点本城市没有 失败展示-->
+    <div class="fail_div hide" id="noEndRoom">
+        <div class="fail_img"></div>
+        <p>抱歉！您所在的城市暂时没有特价酒店哦~！</p>
+    </div>
+    <!--附近的都会展示-->
+    <div class="nearby hide" id="distanceNotice">距离您5km以内的酒店推荐</div>
+    <div id="listContainer">
+    </div>
+    <div class="nomore hide" id="nomore">
+        没有更多酒店了
+    </div>
+</div>
+
+<div class="loading hide"><div class="content"></div></div>
+<div class="mask-layer"></div>
+<!--活动说明-->
+
+<script>
+    window.context = {
+        indate: '2016-08-25',
+        outdate: '2016-08-26',
+        afternoon: false
+
+    };
+</script>
+
+<!--微信分享end-->
+<script type="text/javascript" src="http://m.elongstatic.com/static/webapp/bridge/bridge-1.2.1.js"></script>
+<script type="text/javascript" src="http://map.qq.com/api/js?v=2.exp&libraries=convertor"></script>
+<script type="text/javascript" src='http://m.elongstatic.com/static/webapp/tj/tjmvt.js'></script>
+<script type="text/javascript" src="../dist/usecase/base.js"></script>
+<script type="text/javascript" src="../dist/usecase/index/usecase.js"></script>
+
+
+</body>
+</html>

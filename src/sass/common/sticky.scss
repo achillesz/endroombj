@@ -1,0 +1,17 @@
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index:200;
+}
+//style for navTopFixed.js
+.nav-fixed{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 200; //可按具体页面层级调整
+    overflow-x: hidden;
+    padding:0; //  根据具体样式调整 
+    
+}

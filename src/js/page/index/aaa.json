@@ -1,0 +1,17 @@
+{
+  "errorCode": null,
+  "errorMessage": null,
+  "errorArgs": null,
+  "pager": null,
+  "pageID": null,
+  "orderFrom": null,
+  "cityName": "北京市",
+  "cityId": "0101",
+  "nameSEO": "beijing",
+  "targetCoord": {
+    "latitude": "39.97673",
+    "longitude": "116.4955"
+  },
+  "address": "星科大厦",
+  "error": false
+}

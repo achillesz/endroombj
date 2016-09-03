@@ -1,0 +1,53 @@
+//tow culs
+@media only screen and (max-width:768px) {
+    .main{
+           width:93%; 
+    }
+    // cols-two
+    .cols-two {
+        .single {
+            width: 100%;
+            overflow: hidden;
+        }
+        .single .s-product {
+            padding: 0 4% 4% 0;
+            width: 48%;
+            float: left;
+            .pic .huicover span {
+                margin: 55px auto;
+            }
+        }
+        .s-product .h5-link .information h1 {
+            font-size: 1rem;
+            color: #555;
+        }
+        .single li:nth-child(2n) {
+            padding-right: 0;
+        }
+        .h5-link .pic {
+            max-height: 212px;
+        }
+        .single .s-product .information .inf-left {
+            width: 100%;
+            border-bottom: 1px solid #ddd;
+            .inf-icon {
+                .icon {
+                    width: 0;
+                }
+                .address {
+                    width: 90%;
+                    padding: 0 0 0 15px;
+                    background: url("http://img.elongstatic.com/other/webms/2016/icon.png") no-repeat left center;
+                }
+            }
+        }
+        .single .s-product .information .inf-right {
+            position: relative;
+            width: 100%;
+        }
+    }
+}
+
+.mark-give {
+    display: block;
+}

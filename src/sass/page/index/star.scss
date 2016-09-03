@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'elong';
+  src:url('http://m.elongstatic.com/static/webapp/hotel/2016/09/v909/fonts/elong.eot?-bvlfrg');
+  src:url('http://m.elongstatic.com/static/webapp/hotel/2016/09/v909/fonts/elong.eot?#iefix-bvlfrg') format('embedded-opentype'),
+  url('http://m.elongstatic.com/static/webapp/hotel/2016/09/v909/fonts/elong.woff?-bvlfrg') format('woff'),
+  url('http://m.elongstatic.com/static/webapp/hotel/2016/09/v909/fonts/elong.ttf?-bvlfrg') format('truetype'),
+  url('http://m.elongstatic.com/static/webapp/hotel/2016/09/v909/fonts/elong.svg?-bvlfrg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'elong';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.pro_info .star {
+  position: absolute;
+  left: 0%;
+  bottom: -.8rem;
+  z-index: 2;
+  width: 5rem;
+  height: 3rem;
+  display: block;
+  color: #ccc;
+  font-size: 5rem;
+
+  float: left;
+}
+
+.pro_info .star b {
+  height: 3rem;
+  display: block;
+  color: #feba02;
+  top: 0;
+  position: absolute;
+  overflow: hidden;
+  font-size: 5rem
+}
+.icon-star:before {
+  content: "\e623"
+}
+
+.star-after {
+  position: absolute;
+  float: left;
+  left: 5.5rem;
+  bottom:.27rem;
+  hieght:3rem;
+  line-height:3rem;
+  bottom:-.6rem;
+}
+.star_div{
+  position: relative;
+  height:1.5rem;
+}

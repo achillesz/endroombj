@@ -1,0 +1,27 @@
+{{#lists}}
+<div class="pro_detail">
+    <div class="catch">
+        {{#weifang}} <span class="catch1 shopping tjclick" data-href="{{detailPageUrl}}">抢</span> {{/weifang}}
+        {{^weifang}} <span class="catch2 shopping tjclick" data-href="{{detailPageUrl}}">查看</span> {{/weifang}}
+    </div>
+    <div class="pro_img tjclick" data-href="{{detailPageUrl}}">
+        <img src-set="{{bigPicUrl}}" onerror="javascript:this.src='{{picUrl}}';" alt="">
+        {{#weifang}}<div class="discount">今夜甩卖</div> {{/weifang}}
+        <div class="price_div">
+            <div class="price_info">
+                <span class="price">{{lowestPrice}}</span>
+                <span class="qi">元起</span>
+               {{#showDistance}} <span class="distance">距离您{{distance}}{{distanceUnit}}</span> {{/showDistance}}
+            </div>
+        </div>
+    </div>
+    <div class="pro_info">
+        <h3>{{hotelName}}</h3>
+        <div class="star_div">
+    <div class="star icon-star"><b style="width:{{commentStar}}%" class="icon-star"></b>  </div>
+            <div class="star-after"><span>{{commentPoint}}%</span>好评</div>
+        </div>
+        <div class="address">{{districtName}}{{businessAreaName}}</div>
+    </div>
+</div>
+{{/lists}}
